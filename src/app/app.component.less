@@ -1,0 +1,21 @@
+@import './global.less';
+
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: relative;
+  grid-template-columns: @sidebar-width 1fr;
+  background-color: @color1;
+
+  @sidebar-width: 250px;
+  app-sidebar {
+    width: @sidebar-width;
+    display: block;
+  }
+
+  .router-container {
+    padding: 30px;
+    overflow: auto;
+  }
+}
