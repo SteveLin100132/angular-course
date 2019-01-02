@@ -18,6 +18,8 @@ import { AppComponent } from './app.component';
 import { StructuralDirectivesComponent } from './structural-directives/structural-directives.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { CommunicationComponent } from './communication/communication.component';
+
 
 import xml from 'highlight.js/lib/languages/xml';
 import less from 'highlight.js/lib/languages/less';
@@ -36,7 +38,8 @@ export function hightlightSyntax() {
     AppComponent,
     StructuralDirectivesComponent,
     SidebarComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    CommunicationComponent
   ],
   imports: [
     BrowserModule,

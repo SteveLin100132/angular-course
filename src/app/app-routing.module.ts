@@ -14,11 +14,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { WelcomeComponent } from './welcome/welcome.component';
 import { StructuralDirectivesComponent } from './structural-directives/structural-directives.component';
+import { CommunicationComponent } from './communication/communication.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'welcome', pathMatch: 'full' },
   { path: 'welcome', component: WelcomeComponent, pathMatch: 'full' },
-  { path: 'structural-directives', component: StructuralDirectivesComponent, pathMatch: 'full' }
+  { path: 'structural-directives', component: StructuralDirectivesComponent, pathMatch: 'full' },
+  { path: 'communication', component: CommunicationComponent, pathMatch: 'full' }
 ];
 
 @NgModule({
