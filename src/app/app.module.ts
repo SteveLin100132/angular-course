@@ -19,7 +19,9 @@ import { StructuralDirectivesComponent } from './structural-directives/structura
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { CommunicationComponent } from './communication/communication.component';
-
+import { CodeCardComponent } from './code-card/code-card.component';
+import { FormBuilderComponent } from './form-builder/form-builder.component';
+import { RoutingComponent } from './routing/routing.component';
 
 import xml from 'highlight.js/lib/languages/xml';
 import less from 'highlight.js/lib/languages/less';
@@ -39,7 +41,10 @@ export function hightlightSyntax() {
     StructuralDirectivesComponent,
     SidebarComponent,
     WelcomeComponent,
-    CommunicationComponent
+    CommunicationComponent,
+    CodeCardComponent,
+    FormBuilderComponent,
+    RoutingComponent
   ],
   imports: [
     BrowserModule,

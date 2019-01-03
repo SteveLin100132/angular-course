@@ -1,0 +1,14 @@
+<div class="example">
+  <h3>{{ title }}</h3>
+  <hr>
+  <div class="example-panel">
+    <div class="code-highlight" highlightChildren>
+      <pre><code [highlight]="code"></code></pre>
+    </div>
+    <div>
+      <div class="result">
+        <ng-content></ng-content>
+      </div>
+    </div>
+  </div>
+</div>
